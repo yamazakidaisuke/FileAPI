@@ -23,7 +23,7 @@ document.querySelector("#file").onchange = function(){
           const reader = new FileReader();  //1
           //失敗イベント：エラー表示
           reader.onerror=function () {
-          alert("読み取り時にエラーが発生しました。");
+               alert("読み取り時にエラーが発生しました。");
           };
           //成功イベント：読み込んだ画像を#resultに表示
           reader.onload = function() {
